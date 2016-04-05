@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+.editorconfig
+.gitignore
+.npmignore
+.jshintrc
+.travis.yml
+
+npm-debug.log
+
+/node_modules
+/examples
+/test

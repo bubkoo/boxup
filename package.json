@@ -1,0 +1,50 @@
+{
+  "name": "boxup",
+  "version": "0.0.0",
+  "description": "Box up text in the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/boxup.git"
+  },
+  "keywords": [
+    "boxup",
+    "box",
+    "boxes",
+    "wrap",
+    "text",
+    "border",
+    "unicode",
+    "ascii",
+    "console",
+    "term",
+    "terminal"
+  ],
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/boxup/issues"
+  },
+  "homepage": "https://github.com/bubkoo/boxup#readme",
+  "dependencies": {
+    "boxup-preset": "^0.1.0",
+    "break-string": "^1.0.0",
+    "camelcase": "^2.1.1",
+    "chalk": "^1.1.3",
+    "filled-array": "^1.1.0",
+    "object-assign": "^4.0.1",
+    "repeating": "^2.0.0",
+    "string-width": "^1.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
+}
