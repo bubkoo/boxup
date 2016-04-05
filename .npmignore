@@ -5,9 +5,11 @@
 .npmignore
 .jshintrc
 .travis.yml
+.logorc
 
 npm-debug.log
 
+/logo.svg
 /node_modules
 /examples
 /test
