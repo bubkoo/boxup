@@ -1,7 +1,7 @@
 {
   "name": "boxup",
   "version": "0.0.0",
-  "description": "Box up text in the terminal.",
+  "description": "Wrap content with a box in the terminal.",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js",

@@ -1,6 +1,6 @@
 # boxup
 
-> Box up text in the terminal. 
+> Wrap content with a box in the terminal.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/boxup/blob/master/LICENSE)
 [![build:?](https://img.shields.io/travis/bubkoo/boxup/master.svg?style=flat-square)](https://travis-ci.org/bubkoo/boxup)
@@ -117,11 +117,11 @@ Default: `single`
 Predefined values:
 
 - `single`
-	```
+```
 	┌───┐
 	│foo│
 	└───┘
-	```
+```
 - `double`
 	```
 	╔═══╗
