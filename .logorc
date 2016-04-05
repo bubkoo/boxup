@@ -1,0 +1,6 @@
+font: ./stripefun.ttf
+spacing: 5
+paddingLeft: 10
+paddingRight: 10
+path:
+  fill: '#6ccb99'
