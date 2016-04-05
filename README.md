@@ -118,9 +118,9 @@ Predefined values:
 
 - `single`
 ```
-	┌───┐
-	│foo│
-	└───┘
+   ┌───┐
+   │foo│
+   └───┘
 ```
 - `double`
 	```
