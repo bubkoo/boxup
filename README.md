@@ -118,40 +118,40 @@ Predefined values:
 
 - `single`
 ```
-   ┌───┐
-   │foo│
-   └───┘
+  ┌───┐
+  │foo│
+  └───┘
 ```
 - `double`
-	```
-	╔═══╗
-	║foo║
-	╚═══╝
-	```
+```
+  ╔═══╗
+  ║foo║
+  ╚═══╝
+```
 - `round` (`single` sides with round corners)
-	```
-	╭───╮
-	│foo│
-	╰───╯
-	```
+```
+  ╭───╮
+  │foo│
+  ╰───╯
+```
 - `single-double` (`single` on top and bottom, `double` on right and left)
-	```
-	╓───╖
-	║foo║
-	╙───╜
-	```
+```
+  ╓───╖
+  ║foo║
+  ╙───╜
+```
 - `double-single` (`double` on top and bottom, `single` on right and left)
-	```
-	╒═══╕
-	│foo│
-	╘═══╛
-	```
+```
+  ╒═══╕
+  │foo│
+  ╘═══╛
+```
 - `classic`
-	```
-	+---+
-	|foo|
-	+---+
-	```
+```
+  +---+
+  |foo|
+  +---+
+```
 
 ##### borderChars
 
