@@ -1,4 +1,6 @@
-# boxup
+
+![logo.svg](https://cdn.rawgit.com/bubkoo/boxup/28d7fe4/logo.svg)
+
 
 > Wrap content with a box in the terminal.
 
