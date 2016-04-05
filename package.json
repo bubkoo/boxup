@@ -1,6 +1,6 @@
 {
   "name": "boxup",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Wrap content with a box in the terminal.",
   "main": "index.js",
   "scripts": {
