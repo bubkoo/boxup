@@ -69,17 +69,18 @@ The text inside the box.
 
 ##### width
 
-Type: `Number`, 'Percentage string'
+Type: `Number`, 'Percentage'
 
 Default: `auto`
 
-The width of the box, include padding and borders. Width in the terminal is column count, so width would not greate than tha max column count.
+The width of the box, include padding and borders. 
 
-If `width` is a percentage string, the width is relative to the terminal's width.
+  - `width` is a percentage string, the width is relative to the terminal's width.
+  - `width` is a number, it's a absolute width.
+  - any other invalid values will be treat as `auto`.
 
-If `width` is a number, it's a absolute width.
-
-Any other invalid values will be treat as `atuo`.
+  **Note**: if the width is greater than tha terminal's max width,
+  then we will take terminal's max width as the box's width.
 
 
 ##### textAlign
@@ -268,11 +269,9 @@ Default: `0`
 
 Set the size of the white space around the box.
 
-If `margin` is a `Number`, the `left`/`right` margin is `3` times the `top`/`bottom` to make it look nice.
-
-If `margin` is an `Array`, the array's item respectively represent the `top`, `right`, `bottom` and `left` margin of the box.
-
-If `margin` is an `Object`, tha object can have any of the `top`, `right`, `bottom`, `left` properties.
+- `margin` is a `Number`, the `left`/`right` margin is `3` times the `top`/`bottom` to make it look nice.
+- `margin` is an `Array`, the array's item respectively represent the `top`, `right`, `bottom` and `left` margin of the box.
+- `margin` is an `Object`, the object can have any of the `top`, `right`, `bottom`, `left` properties.
 
 **Examples:**
 ```js
@@ -300,13 +299,12 @@ Default: `0`
 
 Space between the text and box border.
 
-If `padding` is a `Number`, the `left`/`right` padding is `3` times the `top`/`bottom` to make it look nice.
+- `padding` is a `Number`, the `left`/`right` padding is `3` times the `top`/`bottom` to make it look nice.
+- `padding` is an `Array`, the array's item respectively represent the `top`, `right`, `bottom` and `left` padding of the box.
+- `padding` is an `Object`, the object can have any of the `top`, `right`, `bottom`, `left` properties.
 
-If `padding` is an `Array`, the array's item respectively represent the `top`, `right`, `bottom` and `left` padding of the box.
-
-If `padding` is an `Object`, tha object can have any of the `top`, `right`, `bottom`, `left` properties.
 
 ## Related
 
-- [boxup-cli](https://github.com/bubkoo/boxup-cli) - CLI for [boxup](https://github.com/bubkoo/boxup)
-- [boxup-preset](https://github.com/bubkoo/boxup-preset) - Border style presets for [boxup](https://github.com/bubkoo/boxup)
+- [boxup-cli](https://github.com/bubkoo/boxup-cli) - cli for [boxup](https://github.com/bubkoo/boxup)
+- [boxup-preset](https://github.com/bubkoo/boxup-preset) - border style presets for [boxup](https://github.com/bubkoo/boxup)
