@@ -21,6 +21,7 @@
     "border",
     "unicode",
     "ascii",
+    "width",
     "console",
     "term",
     "terminal"
