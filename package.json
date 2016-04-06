@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/bubkoo/boxup#readme",
   "dependencies": {
-    "boxup-preset": "^0.1.0",
+    "boxup-preset": "^1.0.0",
     "break-string": "^1.0.0",
     "camelcase": "^2.1.1",
     "chalk": "^1.1.3",
